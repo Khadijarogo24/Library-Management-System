@@ -1,0 +1,6 @@
+class Member:
+    def __init__(self, name):
+        self.name = name
+
+    def __str__(self):
+        return f"Member Name: {self.name}"
